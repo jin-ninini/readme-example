@@ -122,3 +122,15 @@ project/
 ## Notes
 
 프로젝트를 진행하면서 알게 된 점이나 향후 개선할 부분을 기록합니다.
+
+<br>
+
+## License
+
+Copyright © 2026 Hyunjin Hwang. All rights reserved.
+
+This repository is provided for viewing and portfolio evaluation purposes only.
+
+No permission is granted to copy, modify, distribute, sublicense, publish, or commercially use any part of this project, including its source code, assets, documentation, design, or other contents, without prior written permission from the copyright holder.
+
+If you want to use this project or any portion of it, please obtain written permission from the repository owner in advance.

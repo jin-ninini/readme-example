@@ -1,6 +1,14 @@
+---
+name: refactor-project
+description: Refactor a Python/ML project into the standard layout (data/, src/, models/, train.py, valid.py, test.py), remove duplication, update requirements.txt, and rewrite README.md from the jin-ninini/readme-example template.
+disable-model-invocation: true
+---
+
 Please refactor and organize the current project according to the following requirements.
 
 Do not change the core behavior of the existing project unless necessary for the refactoring.
+
+If the harness is installed (`CLAUDE.md` + `PROGRESS.md`), follow it: agree the Definition of Done in `PROGRESS.md` before moving any file.
 
 # 1. Project Structure
 
@@ -196,7 +204,7 @@ Use the following repository as the primary style/reference:
 
 https://github.com/jin-ninini/readme-example
 
-Inspect that repository before writing the README and follow its overall presentation style, structure, formatting, and level of detail where applicable.
+Inspect its `README.md` (raw: https://raw.githubusercontent.com/jin-ninini/readme-example/main/README.md) before writing the README and follow its section order, writing-style rules (in the HTML comment at the top), formatting, and level of detail where applicable.
 
 However, the README content must describe THIS project accurately. Do not copy irrelevant content from the reference repository.
 

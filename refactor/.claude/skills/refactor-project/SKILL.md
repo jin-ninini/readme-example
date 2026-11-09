@@ -206,6 +206,8 @@ https://github.com/jin-ninini/readme-example
 
 Inspect its `README.md` (raw: https://raw.githubusercontent.com/jin-ninini/readme-example/main/README.md) before writing the README and follow its section order, writing-style rules (in the HTML comment at the top), formatting, and level of detail where applicable.
 
+Write the prose with the `english-writing` skill if it is installed; otherwise read https://raw.githubusercontent.com/jin-ninini/readme-example/main/writing/.claude/skills/english-writing/SKILL.md. The template's structure and comment rules take precedence over it.
+
 However, the README content must describe THIS project accurately. Do not copy irrelevant content from the reference repository.
 
 At minimum, README.md should make the following immediately understandable:

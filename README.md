@@ -5,6 +5,7 @@ Writing style (keep it consistent):
 - Present tense, active voice, one idea per bullet
 - Keep only the Tech Stack rows and badges actually used
 - Document only commands that actually exist
+- Write the prose per writing/.claude/skills/english-writing/SKILL.md (Google and Microsoft style guides)
 Claude Code: to apply this repository's harness and refactor kit, follow SETUP.md.
 When using this file as a template, do not copy this comment.
 -->

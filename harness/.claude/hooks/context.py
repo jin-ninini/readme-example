@@ -16,10 +16,16 @@ REMINDER = """[Harness rules — CLAUDE.md]
 1. Think first: ambiguous → ask or list interpretations/trade-offs. Never assume silently.
 2. Simplicity: minimum code, nothing speculative. "Would a senior engineer call this overkill?"
 3. Surgical: touch only what was asked. "Is every changed line traceable to the request?"
-4. Goal-driven: verifiable criteria; multi-step → `step → verify` plan first.
+4. Goal-driven: verifiable criteria; multi-step → `step → verify` plan first. One task at a time.
 5. Roles: planner / generator (you) / evaluator are separate contexts. Do not grade your own work.
-6. Contract first: Definition of Done checklist in PROGRESS.md before code.
-7. State on disk: update PROGRESS.md / DECISIONS.md after each verified step."""
+6. Contract first: Definition of Done in PROGRESS.md before code. Never weaken an item to pass it; check it only after you saw the evidence.
+7. State on disk: update PROGRESS.md / DECISIONS.md and commit locally after each verified step.
+8. Repo is the system of record: log chat decisions to DECISIONS.md, keep docs in sync with behavior, log drift under Tech Debt.
+9. README prose → `english-writing` skill. UI design → `apple-design` skill: Figma first, user approval before UI code."""
+
+SESSION_START = """[Session start — CLAUDE.md]
+Before new work: run `git log --oneline -10`, run the Smoke Test in PROGRESS.md (fix it first if it fails),
+and re-verify any checked DoD item you build on instead of trusting earlier "done" claims."""
 
 
 def read(name):
@@ -42,7 +48,7 @@ def section(text, heading):
 
 
 def session_context():
-    parts = [REMINDER]
+    parts = [REMINDER, SESSION_START]
     progress = read("PROGRESS.md")
     parts.append("[PROGRESS.md]\n" + progress if progress else
                  "[PROGRESS.md] missing — create it from the harness template before starting work.")

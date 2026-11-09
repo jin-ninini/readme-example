@@ -1,9 +1,9 @@
 <!--
 Writing style (keep it consistent):
-- Headings in Title Case; separate sections with <br>
+- Headings in sentence case (capitalize only the first word and proper nouns); separate sections with <br>
 - Bullets start with a capital letter, no trailing period
 - Present tense, active voice, one idea per bullet
-- Keep only the Tech Stack rows and badges actually used
+- Keep only the Tech stack rows and badges actually used
 - Document only commands that actually exist
 - Write the prose per writing/.claude/skills/english-writing/SKILL.md (Google and Microsoft style guides)
 Claude Code: to apply this repository's harness and refactor kit, follow SETUP.md.
@@ -45,7 +45,7 @@ Two or three sentences on the problem, the goal, and the outcome.
 
 <br>
 
-## Tech Stack
+## Tech stack
 
 | Category | Stack |
 |---|---|
@@ -63,7 +63,7 @@ Two or three sentences on the problem, the goal, and the outcome.
 
 <br>
 
-## Project Structure
+## Project structure
 
 ```text
 project/
@@ -79,7 +79,7 @@ project/
 
 <br>
 
-## Getting Started
+## Getting started
 
 ```bash
 pip install -r requirements.txt

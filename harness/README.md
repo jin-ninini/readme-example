@@ -47,7 +47,7 @@ harness/
 
 <br>
 
-## Principles → Enforcement
+## Principles → enforcement
 
 | Principle | `CLAUDE.md` | Mechanism |
 |---|---|---|

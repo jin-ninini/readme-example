@@ -39,4 +39,4 @@ The README template's structure and the rules in its top comment take precedence
 ## Notes
 
 - Sources: [Google developer documentation style guide](https://developers.google.com/style/) and [Microsoft Writing Style Guide](https://learn.microsoft.com/en-us/style-guide/welcome/)
-- Both guides use sentence case for headings, but the README template keeps Title Case as a project rule
+- The README template uses sentence-case headings, as both guides recommend

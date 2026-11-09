@@ -12,7 +12,7 @@ Rules for English prose in this project. Sources:
 
 ## Precedence
 
-1. **Template first.** When writing `README.md`, keep the template's section order, headings, and the rules in its top HTML comment (for example, Title Case headings and no trailing period on bullets). Both guides say project style overrides them.
+1. **Template first.** When writing `README.md`, keep the template's section order, headings, and the rules in its top HTML comment (for example, no trailing period on bullets). Both guides say project style overrides them.
 2. **This guide** for everything the template does not decide: the sentences you write inside each section.
 3. Spelling: US English, [Merriam-Webster](https://www.merriam-webster.com/).
 
@@ -45,9 +45,9 @@ Rules for English prose in this project. Sources:
 
 ## Headings
 
-- Follow the template's heading case in `README.md` (Title Case). Elsewhere, both guides default to sentence case
+- Use sentence case: capitalize only the first word and proper nouns ("Getting started," "Tech stack")
 - No period or colon at the end of a heading
-- Make headings describe the content ("Getting Started," not "Info")
+- Make headings describe the content ("Getting started," not "Info")
 
 ## Lists and tables
 

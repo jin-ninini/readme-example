@@ -14,6 +14,7 @@ If the harness is installed (`CLAUDE.md` + `PROGRESS.md`), follow it: agree the 
 
 Organize the repository with the following top-level structure as the default:
 
+```text
 project/
 ├── data/
 ├── src/
@@ -23,12 +24,17 @@ project/
 ├── train.py
 ├── valid.py
 └── test.py
+```
 
 Additional top-level execution scripts may be added only when they represent an independent workflow that should be executed directly.
 
 For example:
 
-├── crawling.py
+```text
+project/
+├── ...
+└── crawling.py
+```
 
 If crawling is a standalone process, it should be implemented as `crawling.py` at the project root rather than being placed inside `src/`.
 
@@ -61,8 +67,10 @@ Prefer the following pattern:
 
 Use:
 
+```python
 if __name__ == "__main__":
     main()
+```
 
 for executable scripts whenever appropriate.
 
@@ -77,6 +85,7 @@ Use descriptive filenames that immediately communicate their purpose.
 
 For example, depending on what exists in the current project:
 
+```text
 src/
 ├── data_loader.py
 ├── preprocessing.py
@@ -86,6 +95,7 @@ src/
 ├── inference.py
 ├── utils.py
 └── config.py
+```
 
 Do NOT create these files blindly.
 
@@ -125,20 +135,13 @@ Keep each module focused on one clear responsibility.
 
 Preferred:
 
-src/data_loader.py
-→ dataset loading
-
-src/preprocessing.py
-→ preprocessing and transformation
-
-src/model.py
-→ model definition / model loading
-
-src/trainer.py
-→ training-related functions
-
-src/evaluator.py
-→ validation and evaluation
+| Module | Responsibility |
+|---|---|
+| `src/data_loader.py` | Dataset loading |
+| `src/preprocessing.py` | Preprocessing and transformation |
+| `src/model.py` | Model definition / model loading |
+| `src/trainer.py` | Training-related functions |
+| `src/evaluator.py` | Validation and evaluation |
 
 Avoid ambiguous files containing unrelated logic.
 
@@ -160,10 +163,12 @@ Use `data/` for project datasets and intermediate data artifacts.
 
 If necessary, organize it further based on the existing project, for example:
 
+```text
 data/
 ├── raw/
 ├── processed/
 └── output/
+```
 
 Do not introduce unnecessary subdirectories if the project does not need them.
 
@@ -228,6 +233,7 @@ At minimum, README.md should make the following immediately understandable:
 
 Include a clear project tree similar to:
 
+```text
 project/
 ├── data/
 ├── src/
@@ -238,13 +244,16 @@ project/
 ├── valid.py
 ├── test.py
 └── crawling.py        # only if required
+```
 
 For execution instructions, provide actual commands supported by the project, such as:
 
+```bash
 python train.py
 python valid.py
 python test.py
 python crawling.py
+```
 
 Do not document commands, arguments, features, or dependencies that are not actually implemented.
 

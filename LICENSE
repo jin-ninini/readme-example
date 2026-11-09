@@ -1,6 +1,26 @@
+Copyright (c) 2026 Hyunjin Hwang. All rights reserved.
+
+This repository is provided for viewing and portfolio evaluation purposes only.
+
+No permission is granted to copy, modify, distribute, sublicense, publish, or
+commercially use any part of this project, including its source code, assets,
+documentation, design, or other contents, without prior written permission from
+the copyright holder.
+
+If you want to use this project or any portion of it, please obtain written
+permission from the repository owner in advance.
+
+-------------------------------------------------------------------------------
+Third-party content
+
+The design knowledge in design/.claude/skills/apple-design/SKILL.md (from the
+section "The Core Idea" to the end of the file) is copied from
+https://github.com/emilkowalski/skills and is licensed under the MIT License
+below. The terms above do not apply to that content.
+
 MIT License
 
-Copyright (c) 2026 Hyunjin Hwang
+Copyright (c) 2026 Emil Kowalski
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
